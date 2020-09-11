@@ -1,0 +1,12 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+#SG added 170519 for static ip in E223 use 100 + computer number ie 106 for computer 6
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.223.1XX
+netmask 255.255.255.0
+gateway 192.168.223.1
+
+dns-nameservers 192.168.210.2 8.8.8.8

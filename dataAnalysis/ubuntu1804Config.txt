@@ -1,0 +1,29 @@
+#2019 data analytics instructions
+$cd $HOME  
+
+$sudo apt update 
+
+$sudo apt upgrade
+
+$sudo apt install python3-pip python3-dev  
+
+$python3 -m pip install --upgrade pip  
+
+$sudo python3 -m pip install jupyter  
+
+$sudo python3 -m pip install pandas  
+
+$sudo python3 -m pip install matplotlib  
+
+$sudo python3 -m pip install folium  
+
+$sudo apt-get update  
+
+$sudo apt-get -y install sqlite3  
+
+$sudo python3 -m pip install csvkit  
+
+#SG added 16/03/20
+$sudo python3 -m pip install mysql-connector
+
+$jupyter notebook  

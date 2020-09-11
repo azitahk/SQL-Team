@@ -1,0 +1,1 @@
+CREATE DATABASE Industry40DB;

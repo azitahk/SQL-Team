@@ -1,0 +1,11 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      addresses:
+        - 10.0.0.49/24
+      gateway4: 10.0.0.138
+      nameservers:
+          search: [mydomain, otherdomain]
+          addresses: [208.67.222.222, 8.8.8.8]
